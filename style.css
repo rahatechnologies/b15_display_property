@@ -1,0 +1,23 @@
+/* 
+Elemenets have it set by default
+
+Block: Always starts a new line and spans full width
+
+Inline: Does not start a new line and spans only content
+*/
+
+.block, .inline {
+    color: white;
+}
+
+.block{
+background: blue;
+/* display: block; */
+display: inline;
+}
+
+.inline{
+background: red;
+/* display: inline; */
+display: block;
+}

@@ -1,0 +1,45 @@
+/* 
+
+Block: browser respects width /height, top/ bottom margin
+
+Inline: browser does not respect width / height,
+top /bottom margin
+
+navbar
+
+list-type
+
+descendant selector
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar li {
+    list-style-type: none;
+}
+
+
+.navbar li a{
+    text-decoration: none;
+    color: #f15125fd;
+letter-spacing: 2px;
+background: #222;
+padding: 5px;
+/* margin: 10px 10px; */
+display: block;
+}
+/* 
+ul a{
+    color: green;
+} */
