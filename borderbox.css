@@ -1,0 +1,47 @@
+/* 
+box-sizing: border-box
+default content-box
+ */
+
+
+ /* universal selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}  
+
+
+.box_1,
+.box_2,
+.box_3{
+    width: 200px;
+    height: 200px; 
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+
+.box_1{
+    background: red;
+    padding: 30px;
+    /*  by default box-sizing property set by browser  */
+    /* box-sizing: content-box;
+    box-sizing: border-box; */
+}
+
+.box_2{
+    background: blue;
+}
+
+.box_3{
+    background: green;
+    padding: 20px;
+
+    /*  by default box-sizing property set by browser  */
+    /* box-sizing: content-box;
+    box-sizing: border-box; */
+}
+
